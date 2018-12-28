@@ -164,3 +164,65 @@ button {
         text-shadow: 2.5px 2.5px 1px #082a35;
     }
 }
+
+
+/******************************************************
+Media Query
+******************************************************/
+
+@media screen and (max-width:500px){
+    .dev_design {
+        position: absolute;
+        margin-left: 1%;
+        margin-top: 0%;
+    }
+
+    .container {
+        position: absolute;
+        margin-left: 1%;
+        margin-top: 25%;
+        width: 95%;
+    }
+
+    .chatBox {
+        height: 70%;
+    }
+
+    #heading_1 {
+        width: 100%;
+        margin-left: 8%;
+        margin-top: 8%;
+        font-size: 13vw;
+    }
+    
+    #heading_2 {
+        width: 100%;
+        margin-left: 110%;
+        margin-top: 40%;
+        font-size: 6vw;
+
+    }
+    
+    #by {
+        font-size: 4vw;
+    }
+
+    .pic {
+        visibility: hidden;
+    }
+
+    #dev_info {
+        animation: ani 20s infinite;
+        margin-top: -1%;
+    }
+
+    @keyframes ani {
+        0% {
+          left: 110%;
+        }
+        100% {
+          left: -130%;
+        }
+    }
+
+  }
