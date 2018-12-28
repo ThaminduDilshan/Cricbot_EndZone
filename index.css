@@ -1,0 +1,166 @@
+body {
+    width: 95%;
+    margin: auto;
+    height: 95%;
+    padding: 10px;
+    background-image: url("src/adelaide-oval_lyxeiats2q5n116x8h97x9e1m.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+.container {
+    width: 50%;
+    height: 86%;
+    margin: 3vw 5vw 3vw 43vw;
+}
+
+.dev_design {
+    width: 40%;
+    height: 95%;
+    position: absolute
+}
+
+#heading_1 {
+    width: 80%;
+    height: 20%;
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 1%;
+    text-align: center;
+    font-size: 7vw;
+    font-weight: bolder;
+    color: rgb(197, 196, 196);
+    font-family: 'Rouge Script', cursive;
+    animation: glow .5s infinite alternate;
+}
+
+#heading_2 {
+    width: 80%;
+    height: 12%;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 24%;
+    text-align: center;
+    font-size: 3vw;
+    color: rgb(123, 126, 123);
+    animation: glow2 0.3s infinite alternate;
+}
+
+#by {
+    font-size: 2vw;
+}
+
+.pic {
+    width: 33%;
+    height: 33%;
+    position: absolute;
+}
+
+#dev_1 {
+    margin-left: 5%;
+    margin-top: 38%;
+    background: url("src/205033.jpg") no-repeat;
+    background-size: 100%;
+}
+
+#dev_2 {
+    margin-left: 55%;
+    margin-top: 50%;
+    background: url("src/204983.jpg") no-repeat;
+    background-size: 100%;
+}
+
+#dev_3 {
+    margin-left: 15%;
+    margin-top: 80%;
+    background: url("src/205037.jpg") no-repeat;
+    background-size: 100%;
+}
+
+.chatBox {
+    width: 100%;
+    height: 85%;
+    overflow: auto;
+}
+
+.userInput {
+    float: left;
+    background: rgb(45, 255, 45);
+    border: 1px solid rgb(33, 155, 3);
+    padding: 1.5%;
+    margin: 1%;
+    width: 80%;
+    font-weight: 550;
+}
+
+.responseData {
+    float:right;
+    background: rgb(255, 232, 138);
+    border: 1px solid rgb(245, 147, 0);
+    padding: 1.5%;
+    margin: 1%;
+    width: 80%;
+    font-weight: 550;
+}
+
+.btn_cont {
+    width: 100%;
+    height: 15%;
+}
+
+#input {
+    width: 75%;
+    height: 40%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    border: 1px solid;
+}
+
+button {
+    width: 15%;
+    height: 40%;
+    margin-right: 2%;
+    background: rgba(0,0,0,0.0);
+    border-radius: 25px;
+    border: 2px solid;
+    font-weight: bolder;
+}
+
+#dev_info {
+    position: absolute;
+    margin-top: 0;
+    font-weight: bold;
+    animation: ani 30s infinite;
+    height: 20px;
+    overflow: hidden;
+}
+
+@keyframes ani {
+    0% {
+      left: 100%;
+    }
+    100% {
+      left: -45%;
+    }
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: -4px -4px 10px rgb(7, 1, 1);
+    }
+    100% {
+        text-shadow: 5px 5px 10px rgb(7, 1, 1);
+    }
+}
+
+@keyframes glow2 {
+    0% {
+        text-shadow: -0.5px -0.5px 1px #082a35;;
+    }
+    100% {
+        text-shadow: 2.5px 2.5px 1px #082a35;
+    }
+}
